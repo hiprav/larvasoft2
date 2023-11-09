@@ -1,8 +1,9 @@
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  
+
 }
 .sec2,
 .sec3,
@@ -48,6 +49,7 @@ li {
   color: white;
   border-radius: 5px;
   border-style: none;
+  width: 120px;
 }
 .sec1_d1{
   width: 27%;
@@ -165,29 +167,29 @@ margin-top: 7%;
 }
 .bg-black{
   height: 53vh;
+  padding-top: 40px;
 }
 .bg-black p{
-padding: 2% 12% 2% 2%;
+padding: 2% 12% 2% 5%;
 width: 60%;
 }
 .w-5{
   position: absolute;
   width: 37vw;
   left: 63%;
-  top: 540%;
+  top: 530%;
 }
+
 .sec9{
  justify-content: space-around;
  margin-top: 12%;
  margin-bottom: 9%;
 }
 .sec9 img{
-  width: 20vw;
+  width: 25vw;
 }
-.sec9 :first-child{
-  margin-right: -49%;
-}
-.sec10_d1 :first-child{
+
+.sec10_d1_h3{
 background-color:black;
 color:white;
 text-align:center; 
@@ -197,11 +199,12 @@ padding-top: 5%;
 .sec10_img{
 position: absolute;
 left: 0px;
-top:4070px;
+top:683%;
 width: 40vw;
 z-index: 1;
 }
 .sec10_d3{
+  margin-top: 50px;
   width: 87vw;
   padding-left: 50%;
   text-align: center;
@@ -229,16 +232,18 @@ text-align: center;
   justify-content: center;
   text-align: center;
 }
-h3 img{
-  width: 4vw;
+.sec12_d2{
+  margin-left: 50px;
+  margin-right:50px;
+}
+h4 img{
+  width: 3.2vw;
 }
 .sec12_d1 p{
-  width: 29vw;
+  width: 22vw;
   line-height: 5vh;
 }
-.sec12 h2{
-  margin: 5%;
-}
+
 .ft1-div1{
   background-color: rgb(37, 47, 64);
   color: white;
@@ -281,11 +286,38 @@ font-weight: bolder;
   width: 3vw;
   margin:2% 5% 2% 5%;
 }
+main{
+  overflow: hidden;
+}
 .ft1-d5{
   position: absolute;
   width: 20vw;
-  top: 1055%;
-  left: 72%;
+  top: 1053%;
+  left: 75%;
+}
+.dot1 {
+  position: absolute; 
+      top: 1%; 
+      left: 16%; 
+      height: 230px; 
+      width: 500px; 
+      border-radius: 0 0 240px 240px; 
+      background-color: rgb(227, 227, 227); 
+      z-index: -1;
+}
+.dot2 {
+  position: absolute; 
+  top: 65%; 
+  right: 0;
+  height: 500px; 
+  width: 270px; 
+  border-radius:240px 0 0 240px; 
+  background-color: rgb(227, 227, 227); 
+  z-index: -1;
+}
+mark{
+  background-color: transparent;
+  color: rgb(89, 56, 161);
 }
 /*////////////////////////////////////////////////////////////////////////*/
 /*                             Contact page                               */
@@ -329,7 +361,7 @@ margin: 0px 5px -21px 0px;
 }
 .contact_detail input{
   width: 30vw;
-  height: 4vh;
+  height: 4.5vh;
 }
 .contact_detail label{
 margin: 15px 350px 8px 15px ;
@@ -443,7 +475,7 @@ align-self: start;
 .login_detail input{
   border: 1px solid black;
   border-radius: 5px;
-  height: 4vh;
+  height: 5vh;
   width: 28vw;
 }
 .login_detail button{

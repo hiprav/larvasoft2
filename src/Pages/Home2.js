@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react'
+import Navbar from "../component/Navbar";
 import Slider from "../component/Slider";
 
-export default function Home2() {
-console.log("aaya")
+function Home2() {
+    
   const scrollElements = document.querySelectorAll(".js-scroll");
   const elementInView = (el, dividend = 1) => {
     const elementTop = el.getBoundingClientRect().top;
-    return ( 
+    return (
       elementTop <=
       (window.innerHeight || document.documentElement.clientHeight) / dividend
     );
@@ -35,28 +36,13 @@ console.log("aaya")
   window.addEventListener("scroll", () => { 
     handleScrollAnimation();
   });
-  
+
   return (
+
     <div>
-      <header>
-        <nav className="n1">
-          <img className="larva-img1" src={"./images/larva.png"} alt="" />
-          <ul className="n1-ul">
-            <li>
-              <button className="btn"><b>CONTACT AS</b></button>
-            </li>
-            <li>
-              <button className="btn"><b>PRIVACY POLICY</b></button>
-            </li>
-            <li>
-              <button className="btn"><b>TERM & CONDITIONS</b></button>
-            </li>
-            <li>
-              <button className="btn"><b>LOGIN</b></button>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <span class="dot1"></span>
+      <span class="dot2"></span>
+      <Navbar/>
       <main>
         <section className="sec1">
           <div className="sec1_d1">
@@ -117,6 +103,7 @@ console.log("aaya")
             </div>
           </div>
         </section>
+        <br />
         <hr />
         <section className="sec3">
           <div>
@@ -135,7 +122,7 @@ console.log("aaya")
         </section>
         <section className="sec4">
           <div className="sec4_d1">
-            <h3>Unlock  the Power of the Web with Larasoft</h3>
+            <h3>Unlock  the <mark><b>Power</b></mark> of the Web with <mark><b>Larvasoft</b></mark></h3>
           </div>
           <div className="sec4_d2">
             <p>
@@ -168,7 +155,7 @@ console.log("aaya")
           <div className="example">
             <img className="background-image" src={"./Icons/unsplash.png"} alt="" />
             <div className="overlay-text">
-              <h2><b>Empowering Your Business Through Innovation App Solution</b></h2>
+              <h2><b><mark>Empowering</mark> Your Business Through <mark>Innovative</mark> App Solution</b></h2>
             </div>
           </div>
         </section>
@@ -197,7 +184,7 @@ console.log("aaya")
         <section className="sec9">
           <div>
             <img
-              className="w-25"
+              className="w-26"
               src={"./Icons/computer screen off.png"}
               alt=""
             />
@@ -215,10 +202,10 @@ console.log("aaya")
         </section>
         <section className="sec10">
           <div className="sec10_d1">
-            <h3>Crafting Your Perfect Computing Experience</h3>
+            <h3 className='sec10_d1_h3'>Crafting Your Perfect <mark><b>Computing</b></mark> Experience</h3>
           </div>
           <div className="sec10_d2">
-            <img className=" sec10_img" src={"./Icons/chip.png"} alt="" />
+            <img className="sec10_img" src={"./Icons/chip.png"} alt="" />
           </div>
           <div className="sec10_d3">
             <p><b>
@@ -231,7 +218,7 @@ console.log("aaya")
             </b></p>
           </div>
         </section>
-        <br /><br /><br /><br /><hr />
+        <br /><br /><hr />
         <section className="sec11">
           <h2><b>Why choose Larvasoft?</b></h2><br /><br /> <br />
            
@@ -259,38 +246,42 @@ console.log("aaya")
        
   </section>
         <section className="sec12">
-          <h2 className="h2">Crafting Exeptional user Expirances</h2>
+          <h2 className="h2">Crafting <mark><b>Exeptional</b></mark> User Expirances</h2>
           <div className="sec12_d1">
-            <div>
-              <h3>
+
+            <div className='sec12_d2'>
+              <h4>
                 <img src={"./Icons/Ok.png"} alt="" />
                 Custom Solutions
-              </h3><br />
+              </h4><br />
               <p> 
-                We understand that every busines is unque. That's why we tailor
-                our solutions to meet your specifc needs.
+                We understand that every busines is unique. That's why we tailor
+                our solutions to meet your best specific needs.
               </p>
             </div>
-            <div>
-              <h3>
+
+            <div className='sec12_d2'>
+              <h4>
                 <img src={"./Icons/Ok.png"} alt="" />
                 User-Centirc Approach
-              </h3><br />
+              </h4><br />
               <p>
                 Our designs and developments are focused on providing
                 outstanding user experiences that resonate with your audience.
               </p>
             </div>
-            <div>
-              <h3>
+
+            <div className='sec12_d2'>
+              <h4>
                 <img src={"./Icons/Ok.png"} alt="" />
                 Timely Delivery
-              </h3><br />
+              </h4><br />
               <p>
                 We value your time. Our team works diligently to meet project
                 milestones and deadlines without compromising quality.
               </p>
             </div>
+
           </div>
         </section>
       </main>
@@ -322,7 +313,7 @@ console.log("aaya")
               <img className="sos" src={"./images/p.png"} alt="" />
             </div>
           </div>
-         
+          
         <div className="ft1-d5"> 
           <h4 className="last"><b>Address</b></h4>
           <p className="last1">
@@ -330,5 +321,9 @@ console.log("aaya")
         </div>
       </footer> 
     </div>
-  );
+
+  )
 }
+
+export default Home2
+

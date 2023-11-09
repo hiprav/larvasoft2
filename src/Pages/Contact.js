@@ -1,23 +1,14 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../component/Navbar'
 
-export default function CONTACT() {
+export default function Contact() {
   return (
     <div>
-      <header>
-        <nav className="n1">
-          <img className="larva-img1" src={"./images/larva.png"} alt="" />
-          <ul className="n1-ul">
-            <li><button className="btn">OUR PRODUCTS</button></li>
-            <li><button className="btn">SERVICES</button></li>
-            <li><button className="btn">CONTACT US</button></li>
-            <li><button className="btn">LOGIN</button></li>
-          </ul>
-        </nav>
-      </header>
+      <div>
+      <Navbar/>
       <main>
-
       <div className="contact_div">
-
+    
         <div className="contact_block_1">
           <img src={"./images/larva.png"} alt="" />
           <div className="address">
@@ -47,5 +38,6 @@ export default function CONTACT() {
 
       </main>
     </div>
-  );
+    </div>
+  )
 }

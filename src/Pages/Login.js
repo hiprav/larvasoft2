@@ -1,28 +1,11 @@
 import React from "react";
+import Navbar from "../component/Navbar";
+
 
 export default function About() {
   return (
     <div className="login_div">
-      <header>
-        <nav className="n1">
-          <img className="larva-img1" src={"./images/larva.png"} alt="" />
-          <ul className="n1-ul">
-            <li>
-              <button className="btn">OUR PRODUCTS</button>
-            </li>
-            <li>
-              <button className="btn">SERVICES</button>
-            </li>
-            <li>
-              <button className="btn">CONTACT US</button>
-            </li>
-            <li>
-              <button className="btn">LOGIN</button>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
+      <Navbar/>
       <main className="log_r_div">
         <div className="r_div_img">
           <img src={"./images/design.jpg"} alt="" />
