@@ -1,51 +1,19 @@
 import React from 'react'
 import Navbar from "../component/Navbar";
 import Slider from "../component/Slider";
+import Footer from '../component/Footer';
 
 function Home2() {
-    
-  const scrollElements = document.querySelectorAll(".js-scroll");
-  const elementInView = (el, dividend = 1) => {
-    const elementTop = el.getBoundingClientRect().top;
-    return (
-      elementTop <=
-      (window.innerHeight || document.documentElement.clientHeight) / dividend
-    );
-  };
-  const elementOutofView = (el) => {
-    const elementTop = el.getBoundingClientRect().top;
-    return (
-      elementTop > (window.innerHeight || document.documentElement.clientHeight)
-    );
-  };
-  const displayScrollElement = (element) => {
-    element.classList.add("scrolled");
-  };
-  const hideScrollElement = (element) => {
-    element.classList.remove("scrolled");
-  };
-  const handleScrollAnimation = () => {
-    scrollElements.forEach((el) => {
-      if (elementInView(el, 1.25)) {
-        displayScrollElement(el);
-      } else if (elementOutofView(el)) {
-        hideScrollElement(el)
-      }
-    })
-  }
-  window.addEventListener("scroll", () => { 
-    handleScrollAnimation();
-  });
-
+  
   return (
 
     <div>
-      <span class="dot1"></span>
-      <span class="dot2"></span>
+      <span  className="dot1"></span>
+      <span  className="dot2"></span>
       <Navbar/>
       <main>
         <section className="sec1">
-          <div className="sec1_d1">
+          <div className="sec1_d1"> 
             <h2>
              <b>Welcome to Larvasoft Tech LLP - Your Partner in digital innovation</b>
             </h2>
@@ -221,7 +189,7 @@ function Home2() {
         <br /><br /><hr />
         <section className="sec11">
           <h2><b>Why choose Larvasoft?</b></h2><br /><br /> <br />
-           
+    <div className='scroll'>      
   <section className="scroll-container">
      <div className="scroll-element js-scroll slide-left"> 
        <div className="card-body">
@@ -243,7 +211,7 @@ function Home2() {
          <p className="card-text">Our team comprises skilled developers, disgners, and strategists with years of industrial experience.</p>
      </div>
   </section> 
-       
+  </div>
   </section>
         <section className="sec12">
           <h2 className="h2">Crafting <mark><b>Exeptional</b></mark> User Expirances</h2>
@@ -286,40 +254,7 @@ function Home2() {
         </section>
       </main>
 
-      <footer className="ft">
-        <div className="ft1-div1">
-          <div className="foothead">
-            <h2 className="h"><b>Click on QR or Scan to Contact Us</b></h2>
-          </div>
-          <img className="foothead-QR" src={"./images/download.png"} alt="" />
-        </div>
-
-        <div className="ft1-div2"><br />
-        <img src={"./images/larva.png"} alt="" /> <br />
-          <div className="ft1-div3">
-            <a href="/">OUR PRODUCT</a>
-            <a href="/">SERVICES</a>
-            <a href="/">CONTACT US</a> 
-            <a href="/">LOGIN</a>
-          </div><br /><br />
-          </div>
-        
-          <div className="ft1-d4">
-            <h4>Get in Touch</h4>
-            <div className="logo">
-              <img className="sos" src={"./images/f.png"} alt="" />
-              <img className="sos" src={"./images/i.png"} alt="" />
-              <img className="sos" src={"./images/t.png"} alt="" />
-              <img className="sos" src={"./images/p.png"} alt="" />
-            </div>
-          </div>
-          
-        <div className="ft1-d5"> 
-          <h4 className="last"><b>Address</b></h4>
-          <p className="last1">
-            Opp .Criticar Hospital, Bhandup West,Mumbai-78</p>
-        </div>
-      </footer> 
+ <Footer/>
     </div>
 
   )

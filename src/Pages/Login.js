@@ -3,28 +3,32 @@ import Navbar from "../component/Navbar";
 
 
 export default function About() {
+  function retail(params) {}
+  function distribut(params) {}
   return (
+    <>
+    <Navbar/>
     <div className="login_div">
-      <Navbar/>
+   
       <main className="log_r_div">
         <div className="r_div_img">
           <img src={"./images/design.jpg"} alt="" />
         </div>
         <div>
           <h2>Welcome Back</h2>
-          <span class="body">
-            <input type="checkbox" id="toggle" class="toggleCheckbox" />
-            <label for="toggle" class="toggleContainer">
-              <div onclick="">Retailer</div>
-              <div onclick="">Distributor</div>
+          <span className="body">
+            <input type="checkbox" id="toggle" className="toggleCheckbox" />
+            <label htmlFor="toggle" className="toggleContainer">
+              <div onClick={retail()}>Retailer</div>
+              <div onClick={distribut()}>Distributor</div>
             </label>
           </span>
-          <div class="login_detail">
+          <div className="login_detail">
 
-            <label for="uname"><b>Username</b></label>
+            <label htmlFor="uname"><b>Username</b></label>
             <input type="text" name="uname" required/>
 
-            <label for="psw"><b>Password</b></label>
+            <label htmlFor="psw"><b>Password</b></label>
             <input type="password" name="psw" required/>
 
             <button type="submit" >Login</button>
@@ -37,5 +41,6 @@ export default function About() {
         </div>
       </main>
     </div>
+    </>
   );
 }
