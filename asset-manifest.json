@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/larvasoft2/static/css/main.7f65bdad.css",
+    "main.js": "/larvasoft2/static/js/main.c9462daf.js",
+    "static/js/787.f9fc655e.chunk.js": "/larvasoft2/static/js/787.f9fc655e.chunk.js",
+    "index.html": "/larvasoft2/index.html",
+    "main.7f65bdad.css.map": "/larvasoft2/static/css/main.7f65bdad.css.map",
+    "main.c9462daf.js.map": "/larvasoft2/static/js/main.c9462daf.js.map",
+    "787.f9fc655e.chunk.js.map": "/larvasoft2/static/js/787.f9fc655e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f65bdad.css",
+    "static/js/main.c9462daf.js"
+  ]
+}
