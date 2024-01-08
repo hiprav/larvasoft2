@@ -1,0 +1,92 @@
+.a {
+  overflow: hidden;
+}
+.heading {
+  font-size: 3.5vw;
+}
+.header {
+  font-size: 1.7vw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head {
+  font-size: 3vw;
+  font-weight: bold;
+}
+.tc_content {
+  padding: 2rem;
+  background-color: #ebebeb80;
+  border-radius: 10px;
+  margin: 1rem 0;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 5vw;
+  }
+  .header {
+  
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .p{
+    margin-left: 5%;
+  }
+  .head {
+    font-size: 3.8vw;
+    font-weight: bold;
+  }
+  .tc_content {
+    padding: 2rem;
+    background-color: #ebebeb80;
+    border-radius: 10px;
+    margin: 1rem 0;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .dot11 {
+    top: 8%;
+    width: 70%;
+  }
+  .material-symbols-outlined {
+    top: 5%;
+    font-size: 7vw;
+    z-index: -1;
+    margin-top: -20vw;
+    margin-right: -7%;
+  }
+  .ft1-div3 a {
+    font-size: 3.3vw;
+    margin: 3%;
+  }
+  .ft1-div3 {
+    width: 100vw;
+  }
+  .h {
+    font-size: 5vw;
+  }
+  .foothead-QR {
+    width: 77 px;
+  }
+  .sos {
+    width: 5vw;
+    margin: 2% 5% 2% 5%;
+  }
+  .ft1-div2 img {
+    width: 20vw;
+  }
+  .larva-img1 {
+    width: 11%;
+    height: auto;
+  }
+  
+}

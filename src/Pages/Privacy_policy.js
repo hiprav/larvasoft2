@@ -1,40 +1,43 @@
 import React from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
+import "../Css/Term_condition.css";
+import "../Css/Policy.css";
 
 export default function Privacy_policy() {
   return (
-    <div>
+    <div> 
       <Navbar />
       <span className="dot11"></span>
       <span className="dot2"></span>
-      <div className="_ngcontent">
-        <h1 className="heading">PRIVACY POLICY (LARVASOFT TECH)</h1>
-        <h3 className="title" >
+      <div className="tc_content">
+        <h1 className="heading">PRIVACY POLICY</h1>
+        <h1 className="heading">(LARVASOFT TECH)</h1>
+        <h3 className="header" >
           THE FOLLOWING DEFINITIONS SHALL APPLY FOR THE SCOPE OF THESE TERMS:
         </h3 >
-        <b className="heading">
+        <b className="header">
           Access to Managed Services is granted for the particular License Term.
         </b>
-        <p className="p heading">
+        <p className="header">
           Should a Product of Larvasoft Tech Apps be provided to the Customer
           pursuant to a license which, when fully paid, is to be perpetual, the
           following shall apply:
         </p>
 
-        <div className="_ngcontent">
-          <h3 className="title _ngcontent">
+        <div className="tc_content">
+          <h3 className="title ">
             Scope of the Standard Terms and Conditions of Business
           </h3 >
-          <br className="_ngcontent" />
+          <br className="tc_content" />
           The standard terms and conditions of business set out below
           (hereinafter referred to as "Terms") shall apply to any and all
           agreements between Larvasoft Tech Apps, and its Customers concerning
           the delivery of its Products and/or Services, in particular, the
           provision of Software and its Updates/Upgrades, Managed Services and
           the rendering of related Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Terms shall also apply to any and all future agreements between
           Larvasoft Tech Apps and the Customer without any further reference to
           them. In addition to these Terms, the EULA shall be applicable to any
@@ -43,8 +46,8 @@ export default function Privacy_policy() {
           these Terms and the EULA and/or the respective SLA, the provisions of
           these Terms shall prevail unless a specific term in a EULA or SLA is
           more favorable to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Terms shall prevail over any proposed terms and conditions of the
           Customer, even if the Customer has communicated its terms and
           conditions to Larvasoft Tech Apps unless Larvasoft Tech Apps has
@@ -53,8 +56,8 @@ export default function Privacy_policy() {
           Products and/or Services to the Customer without any reservation
           and/or with knowledge of the contradicting or differing terms of the
           Customer.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps reserves the right to change, update, amend or
           modify these Terms at any time. Such changes will be transmitted to
           the Customer in www.larvasoft.com (email will be sufficient). The
@@ -68,11 +71,11 @@ export default function Privacy_policy() {
           agreements with the Customer. Objections, notifications and other
           correspondence from the Customer to Larvasoft Tech Apps shall be sent
           to the address at the end of these Terms.
-          <br className="_ngcontent" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">
-            <br className="_ngcontent" />
+        <div className="tc_content">
+          <b >
+            <br className="tc_content" />
             Why do we Require following PERMISSIONS in our App
           </b>
           <br />
@@ -97,7 +100,7 @@ export default function Privacy_policy() {
           Usage Data. We don’t share or collect this data.
           <br />
           <br />
-          <b className="color-green">REQUEST_IGNORE_BATTERY_OPTIMIZATIONS </b>-
+          <b className="color-green">REQUEST_IGNORE BATTERY_OPTIMIZATIONS </b>-
           We need this permission so that our app features run smoothly without
           being interrupted by battery.
           <br />
@@ -110,12 +113,12 @@ export default function Privacy_policy() {
           <br />
           <b className="color-green">PHONE </b>- This permission is required to
           help Child to call their Parent’s in case of emergency..
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <h3 className="title _ngcontent">Definitions</h3 >
-          <br />
+        <div className="tc_content">
+          <h3 className="title ">Definitions</h3 >
+      
           <br />
           <b className="color-green">access</b>
           - means access to a Service by use of a browser and with the aid of a
@@ -172,11 +175,11 @@ export default function Privacy_policy() {
           depends on mobile operating systems. It stipulates the Customer's
           usage rights for the Products under the relevant agreement and is
           available for download on www.larvasoft.com.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">EULA</b> - means the price or the License
+        <div className="tc_content">
+          <b >EULA</b> - means the price or the License
           fee to be paid for a Product or Service of Larvasoft Tech Apps.
           <br />
           <br />
@@ -186,8 +189,8 @@ export default function Privacy_policy() {
           the date of execution of the relevant agreement. The License shall
           detail the nature and scope of the Customer's right to use the
           Products and/or Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           For those Larvasoft Tech Apps Products for which an Update Service is
           provided, the License shall also detail the Customer's right to
           receive ongoing Updates/Upgrades during the License Term for the
@@ -206,10 +209,10 @@ export default function Privacy_policy() {
           to access that Managed Service. By sending a Login to a Customer,
           Larvasoft Tech Apps grants a License to the Customer to the Managed
           Service to which the Login applies.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           <b className="color-green">License Term</b> - means any software and
           any other dataset that causes damaging or undesirable functions in
           Computer or in a computer system of a user.
@@ -225,7 +228,7 @@ export default function Privacy_policy() {
           contemporaneous use of Larvasoft Tech Apps Products on several
           Computers. Such use is only allowed pursuant to Licenses for Multiple
           Use for some Larvasoft Tech Apps products.
-          <br className="_ngcontent" />
+          <br className="tc_content" />
           <br />
           <b className="color-green">One-Time-Code (OTC) </b>- means a sequence
           of numbers, letters and/or other symbols that must be entered into the
@@ -233,37 +236,37 @@ export default function Privacy_policy() {
           installation. In such cases, Larvasoft Tech Apps will provide Customer
           with an OTC. Upon entering a valid OTC, the Customer shall receive the
           Software Key, and the License Term for that Software shall commence.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           <b className="color-green">Product</b> - means Larvasoft Tech Apps
           Software including any applicable Update Service and user handbooks or
           other goods provided by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           <b className="color-green">Reseller </b>- means a Customer to whom
           Products or Services are provided expressly for the purpose of resale.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           <b className="color-green">Service</b> - means Managed Service or
           other related services provided by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           <b className="color-green">SLA</b>
           - means the Service Level Agreement of the respective Larvasoft Tech
           Apps entity that must be accepted by the Customer before any use of
           the Services. It defines the Customer's rights of use for the
           respective Services under the relevant agreement and is available for
           download on www.larvasoft.com.
-          <br className="_ngcontent" />
+          <br className="tc_content" />
           <br />
           <b className="color-green">Software</b> - means Larvasoft Tech Apps
           computer programs in object code format, including any and all Updates
           and Upgrades thereof that Larvasoft Tech Apps makes available and for
           which Larvasoft Tech Apps has granted a License to a Customer.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           <b className="color-green">Software</b>
           - means an encrypted code that identifies the Software provided to
           Customer by Larvasoft Tech Apps and is necessary for installation and
@@ -271,21 +274,21 @@ export default function Privacy_policy() {
           of the Software. By sending a Software Key, Larvasoft Tech Apps grants
           the Customer the License to the Software to which the Software Key
           applies.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           <b className="color-green">Support</b>
           - means a Service which Larvasoft Tech Apps offers to Customers
           seeking help desk support for Products or Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           <b className="color-green">Updates and Upgrades</b>
           - mean the updating of the Software. Classification of the updating as
           an Update or Upgrade is at Larvasoft Tech Application’s sole
           discretion.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           <b className="color-green">Update Service</b>
           - means the ongoing updating of Software through Updates and/or
           Upgrades and providing such Updates and Upgrades to the Customer by
@@ -293,8 +296,8 @@ export default function Privacy_policy() {
           functional use. Larvasoft Tech Apps may at its sole discretion render
           and designate services under its Update Service as an Update or
           Upgrade.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Offer and Acceptance of the Agreement The presentation of Larvasoft
           Tech Application’s Products and Services on the internet and in
           prospectuses, catalogues and brochures is for informational purposes
@@ -302,22 +305,22 @@ export default function Privacy_policy() {
           binding offer from Larvasoft Tech Apps but, rather, shall constitute
           an opportunity for the Customer to learn information and to prepare to
           make a binding contractual offer in the form of an order.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           A legally binding agreement between Larvasoft Tech Apps and the
           Customer shall be concluded only if the Customer places an order and
           Larvasoft Tech Apps accepts such order by way of a written order
           confirmation (email is sufficient) or by providing one or more
           Products and/or Services to the Customer, (e.g. per download or by
           provision of a Login).
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Any and all orders accepted by Larvasoft Tech Apps are subject to
           these Terms and the applicable EULA and/or applicable SLA.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Should the Customer be entitled to withdraw from or terminate an
           agreement based on any applicable statutory withdrawal right and
           should the Customer exercise this right within the relevant statutory
@@ -326,12 +329,12 @@ export default function Privacy_policy() {
           refund the Customer any fees on a pro-rata basis that have already
           been paid for the respective Product or Service according to any
           applicable statutory provisions.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Any deviations from or modifications to these Terms must be expressly
           agreed to between the parties in www.larvasoft.com.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Offer and Acceptance of the Agreement The presentation of Larvasoft
           Tech Application’s Products and Services on the internet and in
           prospectuses, catalogues and brochures is for informational purposes
@@ -339,84 +342,84 @@ export default function Privacy_policy() {
           binding offer from Larvasoft Tech Apps but, rather, shall constitute
           an opportunity for the Customer to learn information and to prepare to
           make a binding contractual offer in the form of an order.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           A legally binding agreement between Larvasoft Tech Apps and the
           Customer shall be concluded only if the Customer places an order and
           Larvasoft Tech Apps accepts such order by way of a written order
           confirmation (email is sufficient) or by providing one or more
           Products and/or Services to the Customer, (e.g. per download or by
           provision of a Login).
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Any and all orders accepted by Larvasoft Tech Apps are subject to
           these Terms and the applicable EULA and/or applicable SLA.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Customer be entitled to withdraw from or terminate an
           agreement based on any applicable statutory withdrawal right and
           should the Customer exercise this right within the relevant statutory
           period, the relevant EULA and/or SLA shall terminate at the same time.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           In case of such withdrawal or termination, Larvasoft Tech Apps will
           refund the Customer any fees on a pro-rata basis that have already
           been paid for the respective Product or Service according to any
           applicable statutory provisions.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Any deviations from or modifications to these Terms must be expressly
           agreed to between the parties in www.larvasoft.com.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <h3 className="title _ngcontent">Subject matter of Agreements</h3 >
+        <div className="tc_content">
+          <h3 className="title ">Subject matter of Agreements</h3 >
           The EULAs and SLAs that are concluded subject to these Terms shall
           define the Customer's rights to use Larvasoft Tech Apps Products
           and/or Services in accordance with these Terms and the applicable EULA
           and/or SLA. Upon payment of the agreed Fee, the Customer shall be
           granted such use rights.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
-          <b className="_ngcontent">
+          <br className="tc_content" />
+          <br className="tc_content" />
+          <b >
             For Software for which an Update Service is available, the License
             shall include:
           </b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           A non-exclusive, non-transferable (with the exception of clause 5.
           below) right to use the Software without added charge for the License
           Term, and A right to access the Update Service during the License Term
           as paid for.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           For Managed Services and Software for which no Update Service is
           provided, the License shall include a nonexclusive, non-transferable
           (with the exception of clause 5. below) right to use the Managed
           Services or the Software during the License Term as paid for.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Title in and to the Products and Services, and any and all other
           rights, including, but not limited to the rights of publication,
           reproduction, processing, translation and other exploitation rights,
           shall be retained by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           After an agreement has been withdrawn, rescinded or terminated, the
           Customer's License for the Products or Services shall automatically
           terminate and Customer shall have no further right of Access to or use
           of the Product or Services. The Customer shall receive no further
           Updates/Upgrades from Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall dispose of all Software, in particular, the
           original data media, any backup copies and the Software data files
           stored on its Computer system. Larvasoft Tech Apps may demand a
           written confirmation by the Customer declaring that all Software has
           been deleted in full.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Software has a specific product lifecycle that governs the operating
           systems with which the Software is compatible and how long the
           Software will be supported by Larvasoft Tech Apps. Software is
@@ -424,15 +427,15 @@ export default function Privacy_policy() {
           in the product lifecycle or once the support period has expired.
           Therefore, the product lifecycle constitutes therefore an integral
           part of the relevant agreement and is published on www.larvasoft.com.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">
+        <div className="tc_content">
+          <b >
             Provisions for the use of Software and Managed Service:
           </b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           In using the Software and/or Managed Service, the Customer shall at
           all times comply with these Terms and Conditions as well as the terms
           of the EULA and/or SLA applicable at the time of execution of this
@@ -459,8 +462,8 @@ export default function Privacy_policy() {
           Licenses for Multiple Use, Multiple Use shall be permissible only if,
           and to the extent that, the Customer purchased and was granted the
           relevant type or number of Licenses by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Unless explicitly granted in the applicable License, Customer shall
           not have the right to access Managed Services by simultaneous or
           multiple use of the same Login. Larvasoft Tech Apps reserves all
@@ -474,15 +477,15 @@ export default function Privacy_policy() {
           Reseller may transfer the License to a third party. In the event of a
           resale, the serial numbers issued by Larvasoft Tech Apps (e.g. License
           numbers, OTCs or Logins) shall be stated in the invoice.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Special provisions for Resellers If Products and/or Services are
           provided to a Reseller, the Reseller may transfer the License to a
           third party. In the event of a resale, the serial numbers issued by
           Larvasoft Tech Apps (e.g. License numbers, OTCs or Logins) shall be
           stated in the invoice.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Reseller shall not grant to its Customers any rights in the
           Products and/or Services that are different from, or greater than,
           those permitted pursuant to these Terms and Conditions, a EULA and/or
@@ -498,8 +501,8 @@ export default function Privacy_policy() {
           provisions remain unaffected. Such liquidated damages will be set off
           against any other damage awards to Larvasoft Tech Apps resulting from
           the breach.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Reseller shall not reproduce the Products and/or Services in whole
           or in part, including for purposes of data backup. The parties
           acknowledge that damages resulting from a breach of this clause by
@@ -511,17 +514,17 @@ export default function Privacy_policy() {
           Larvasoft Tech Apps resulting from the breach of these provisions
           remain unaffected. Such liquidated damages will be set off against any
           other damage awards to Larvasoft Tech Apps resulting from the breach.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps terms &amp; Conditions will be applicable for all
           the apps offered by Larvasoft Tech.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">Delivery</b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+        <div className="tc_content">
+          <b >Delivery</b>
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps delivery obligations shall be governed only by (i)
           Larvasoft Tech Apps order confirmation, (ii) these Terms, (iii) the
           EULA and/or the SLA (as applicable) unless explicitly agreed otherwise
@@ -535,8 +538,8 @@ export default function Privacy_policy() {
           technical changes to the Products and/or Services which enhance their
           operability and performance or which are necessary for the operability
           of the Products and/or Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Deviations of the delivered Products and/or Services from
           documentation shall be permitted provided that they are reasonable and
           that the performance of the Products or Services is not materially,
@@ -555,8 +558,8 @@ export default function Privacy_policy() {
           the Products and/or Services which enhance their operability and
           performance or which are necessary for the operability of the Products
           and/or Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should Products and/or Services licensed by Customer be replaced by
           new Products and/or Services in Larvasoft Tech Application’s product
           line, and such new Products and/or Services perform as well or better
@@ -574,8 +577,8 @@ export default function Privacy_policy() {
           the Products and/or Services which enhance their operability and
           performance or which are necessary for the operability of the Products
           and/or Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should Products and/or Services licensed by Customer be replaced by
           new Products and/or Services in Larvasoft Tech Application’s product
           line, and such new Products and/or Services perform as well or better
@@ -587,8 +590,8 @@ export default function Privacy_policy() {
           release for shipment by Larvasoft Tech Apps. In the event of receipt
           of Software by download, risk shall pass to the Customer as soon as
           Customer has received the necessary Software Key.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should Larvasoft Tech Application’s performance be delayed beyond the
           date confirmed by Larvasoft Tech Apps, claims for late performance may
           only be asserted following the expiry of a reasonable grace period of
@@ -603,17 +606,17 @@ export default function Privacy_policy() {
           internet connection), Larvasoft Tech Apps or the Customer may, upon
           ten (10) days written notice, rescind this agreement without giving
           rise to any obligation to the other party.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Should Products and/or Services of Larvasoft Tech Apps be shipped at
           the Customer's request, the risk for damage and loss shall pass to the
           Customer upon release for shipment by Larvasoft Tech Apps. In the
           event of receipt of Software by download, risk shall pass to the
           Customer as soon as Customer has received the necessary Software Key.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should Larvasoft Tech Application’s performance be delayed beyond the
           date confirmed by Larvasoft Tech Apps, claims for late performance may
           only be asserted following the expiry of a reasonable grace period of
@@ -628,13 +631,13 @@ export default function Privacy_policy() {
           internet connection), Larvasoft Tech Apps or the Customer may, upon
           ten (10) days written notice, rescind this agreement without giving
           rise to any obligation to the other party.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">Automatic renewal</b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+        <div className="tc_content">
+          <b className="tc_content">Automatic renewal</b>
+          <br className="tc_content" />
+          <br className="tc_content" />
           Remuneration and payment terms Unless expressly agreed otherwise,
           Larvasoft Tech Application’s Fees are net free place of shipment, and
           all shipping costs, in particular, packaging, transport costs and
@@ -651,22 +654,22 @@ export default function Privacy_policy() {
           Larvasoft Tech Apps only pursuant to a special agreement between the
           parties and only if these methods of payment do not give rise to any
           costs and fees for Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory default interest for all past due sums
           without further notice.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Payments shall be due immediately without any deductions.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Bills of exchange and checks shall be accepted by Larvasoft Tech Apps
           only pursuant to a special agreement between the parties and only if
           these methods of payment do not give rise to any costs and fees for
           Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory default interest for all past due sums
           without further notice. Unless expressly agreed otherwise, Larvasoft
@@ -681,14 +684,14 @@ export default function Privacy_policy() {
           Customer defaults in payments, Larvasoft Tech Apps may demand agreed
           upon or statutory Payments shall be due immediately without any
           deductions.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Bills of exchange and checks shall be accepted by Larvasoft Tech Apps
           only pursuant to a special agreement between the parties and only if
           these methods of payment do not give rise to any costs and fees for
           Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory Unless expressly agreed otherwise, Larvasoft
           Tech Application’s Fees are net free place of shipment, and all If the
@@ -698,10 +701,10 @@ export default function Privacy_policy() {
           Larvasoft Tech Apps only pursuant to a special agreement between the
           parties and only if these methods of payment do not give rise to any
           costs and fees for Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory Unless expressly agreed otherwise, Larvasoft
           Tech Application’s Fees are net free place of shipment, and all If the
@@ -715,8 +718,8 @@ export default function Privacy_policy() {
           be accepted by Larvasoft Tech Apps only pursuant to a special
           agreement between the parties and only if these methods of payment do
           not give rise to any costs and fees for Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory Unless expressly agreed otherwise, Larvasoft
           Tech Application’s Fees are net free place of shipment, and all If the
@@ -726,35 +729,35 @@ export default function Privacy_policy() {
           Larvasoft Tech Apps only pursuant to a special agreement between the
           parties and only if these methods of payment do not give rise to any
           costs and fees for Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory Unless expressly agreed otherwise, Larvasoft
           Tech Application’s Fees are net free place of shipment, and all
           shipping costs, in particular, packaging, transport costs and
           transport insurance, as well as applicable statutory value added tax -
           if any - shall be paid by the Customer.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Payments shall be due immediately without any deductions. Bills of
           exchange and checks shall be accepted by Larvasoft Tech Apps only
           pursuant to a special agreement between the parties and only if these
           methods of payment do not give rise to any costs and fees for
           Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer defaults in payments, Larvasoft Tech Apps may demand
           agreed upon or statutory default interest for all past due sums
           without further notice.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           IF the Customer defaults in payment, then Larvasoft Tech Apps may
           withhold all deliveries to the Customer, including Updates and
           Upgrades. Customer should carefully note the consequences of a failure
           to install Updates/Upgrades, in particular, that the protective
           function of the Software may be impaired.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer may only set off against claims of Larvasoft Tech Apps if
           the Customer's particular claims are uncontested or confirmed in a
           final and binding judgment and only insofar as its counterclaims are
@@ -766,47 +769,47 @@ export default function Privacy_policy() {
           uncontested or confirmed in a final and binding judgment and only
           insofar as its counterclaims are based on the same legal relationship
           between the parties.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer may only set off against claims of Larvasoft Tech Apps if
           the Customer's particular claims are uncontested or confirmed in a
           final and binding judgment and only insofar as its counterclaims are
           based on the same legal relationship between the parties.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Customer should carefully note the consequences of a failure to
           install Updates/Upgrades, in particular, that the protective function
           of the Software may be impaired.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer may only set off against claims of Larvasoft Tech Apps if
           the Customer's particular claims are uncontested or confirmed in a
           final and binding judgment and only insofar as its counterclaims are
           based on the same legal relationship between the parties.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer may only set off against claims of Larvasoft Tech Apps if
           the Customer's particular claims are uncontested or confirmed in a
           final and binding judgment and only insofar as its counterclaims are
           based on the same legal relationship between the parties.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Customer should carefully note the consequences of a failure to
           install Updates/Upgrades, in particular, that the protective function
           of the Software may be impaired.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer may only set off against claims of Larvasoft Tech Apps if
           the Customer's particular claims are uncontested or confirmed in a
           final and binding judgment and only insofar as its counterclaims are
           based on the same legal relationship between the parties.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">Automatic renewal</b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+        <div className="tc_content">
+          <b className="tc_content">Automatic renewal</b>
+          <br className="tc_content" />
+          <br className="tc_content" />
           Proper use of the Software requires receipt of a Software Key from
           Larvasoft Tech Apps or one of its authorized Resellers and Customer's
           installation of all Updates/Upgrades for the respective Software by
@@ -816,8 +819,8 @@ export default function Privacy_policy() {
           Installation of the Software and its Updates/Upgrades as well as
           regular downloading of the full and current Updates/Upgrades shall be
           the Customer's sole responsibility.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall familiarize itself with the key functions of the
           Software or Service. The Customer shall bear the entire risk as to
           whether the Software or Service meets the individual requirements and
@@ -825,19 +828,19 @@ export default function Privacy_policy() {
           environment for the Software or Service shall be the sole
           responsibility of the Customer. The same shall apply to regular data
           backup within the Customer's EDP system.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall comply with Larvasoft Tech Application’s advice and
           instructions concerning installation of the Software, the updating
           thereof by Updates/Upgrades and its operation. The Customer shall
           regularly consult Larvasoft Tech Apps website (www.larvasoft.com) to
           learn Larvasoft Tech Apps current advice and shall take this into
           account while operating the Software.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall install the Software at its own cost.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           This shall also be the case if certain Updates/Upgrades and releases
           require a new installation of the Software during the License Term.
           The Customer shall promptly notify Larvasoft Tech Apps of any alleged
@@ -862,27 +865,27 @@ export default function Privacy_policy() {
           Software or Services. Larvasoft Tech Apps shall not be liable for any
           damages resulting from Customer's failure to provide such
           notification.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall promptly notify Larvasoft Tech Apps of any alleged
           or potential defects in the Products and/or Services provided.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall notify Larvasoft Tech Apps without undue delay of
           any changes to its email address or contact information in order for
           Larvasoft Tech Apps to be able to send the Customer security-relevant
           information for the use of the Software or Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps shall not be liable for any damages resulting from
           Customer's failure to provide such notification.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">Warranty and Limitations</b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+        <div className="tc_content">
+          <b >Warranty and Limitations</b>
+          <br className="tc_content" />
+          <br className="tc_content" />
           Unless expressly agreed otherwise, the Products provided by Larvasoft
           Tech Apps as well as Larvasoft Tech Apps Services shall reasonably
           conform to all material product information and specifications
@@ -903,8 +906,8 @@ export default function Privacy_policy() {
           Software or Services that detect any and all existing viruses or other
           Malware. FAILURE TO INSTALL UPDATES OR UPGRADES AS PROVIDED WILL VOID
           ANY WARRANTIES HERE UNDER.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           FAILURE TO INSTALL UPDATES OR UPGRADES AS PROVIDED WILL VOID ANY
           WARRANTIES HERE UNDER. Customer agrees and warrants that the Products
           shall not be used in high risk pursuits that require error-free,
@@ -916,8 +919,8 @@ export default function Privacy_policy() {
           aviation navigation or communication systems, air traffic control,
           life support systems and equipment, machine and production processes
           of pharmaceuticals and food production).
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps does not warrant or guarantee that the Products
           are fit for use in these, or other, high risk areas. If the Customer
           is an Entrepreneur and Larvasoft Tech Apps has provided the Customer
@@ -940,13 +943,13 @@ export default function Privacy_policy() {
           the respective defect promptly Notified errors shall be rectified by
           Larvasoft Tech Apps choice through correction of the error ("repair")
           or provision of an error-free Product ("substitute delivery").
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Costs for correction shall be borne by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer is an Entrepreneur and Larvasoft Tech Apps has
           provided the Customer with the Product pursuant to a perpetual, fully
           paid license, then defects in the provided Products, shall be
@@ -956,8 +959,8 @@ export default function Privacy_policy() {
           through correction of the error ("repair") or provision of an
           error-free Product ("substitute delivery"). Costs for correction shall
           be borne by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the defects cannot be corrected within a reasonable period or if
           repair and substitute delivery fail for other reasons, then the
           Customer may, at its choice, reduce the Fee paid to Larvasoft Tech
@@ -969,8 +972,8 @@ export default function Privacy_policy() {
           year after commencement of the License Term defects in the Product
           shall be rectified by Larvasoft Tech Apps within a reasonable period
           after notification of the defect.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The rectification of defects shall be effected, at Larvasoft Tech
           Application’s choice, by way of repair or substitute delivery, free of
           charge. If the defects cannot be corrected within a reasonable period
@@ -980,51 +983,51 @@ export default function Privacy_policy() {
           agreement. Any damage claims of a Customer or claims for expenses
           incurred that arise from such defects shall be governed exclusively by
           clause 11.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If Larvasoft Tech Apps has provided a Customer with the Product
           pursuant to a fully paid license for a specific term, for one year
           after commencement of the License Term defects in the Product shall be
           rectified by Larvasoft Tech Apps within a reasonable period after
           notification of the defect.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The rectification of defects shall be effected, at Larvasoft Tech
           Application’s choice, by way of repair or substitute delivery, free of
           charge.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the defects cannot be corrected within a reasonable period or if
           repair and substitute delivery fail for other reasons, then the
           Customer may, at its choice, reduce the Fee paid to Larvasoft Tech
           Apps pro rata or - if the defects are not immaterial - terminate the
           agreement.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Any damage claims of a Customer or claims for expenses incurred that
           arise from such defects shall be governed exclusively by clause 11.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           If Larvasoft Tech Apps has provided a Customer with the Product
           pursuant to a fully paid license for a specific term, for one year
           after commencement of the License Term defects in the Product shall be
           rectified by Larvasoft Tech Apps within a reasonable period after
           notification of the defect.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The rectification of defects shall be effected, at Larvasoft Tech
           Application’s choice, by way of repair or substitute delivery, free of
           charge.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer is only entitled to terminate the agreement due to the
           failure to grant use in accordance with the agreement if Larvasoft
           Tech Apps has been given sufficient opportunity to rectify the defect
           and such attempt has failed.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           A repair or substitute delivery shall be viewed to have failed only if
           Larvasoft Tech Apps has been given sufficient opportunity to affect a
           repair or substitution without achieving the desired result or if the
@@ -1037,8 +1040,8 @@ export default function Privacy_policy() {
           other Products and/or Services provided by Larvasoft Tech Apps free of
           charge, except for the operability of the Computer Program
           hereinafter.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The same shall apply for Larvasoft Tech Apps Shareware, as long as
           there is no agreement with the Customer for the unconditional
           provision of a Software Key or Login No warranty is provided for
@@ -1051,8 +1054,8 @@ export default function Privacy_policy() {
           other Products and/or Services provided by Larvasoft Tech Apps free of
           charge, except for the operability of the Computer Program
           hereinafter.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The same shall apply for Larvasoft Tech Apps Shareware, as long as
           there is no agreement with the Customer for the unconditional
           provision of a Software Key or Login against payment. In no event
@@ -1061,307 +1064,307 @@ export default function Privacy_policy() {
           shall notify Larvasoft Tech Apps without undue delay if a third party
           asserts claims against the Customer based on infringement of
           intellectual property rights by the Product and/or Managed Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should there be any such notification, whether in written documents or
           correspondence or in other form, the Customer shall provide these to
           Larvasoft Tech Apps without undue delay.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Larvasoft Tech Apps liability for Customer losses due to such
           infringement is limited to the cost of the In no event shall any
           Customer ever be entitled to access, or demand access to the source
           code for the Software and/or Managed Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall notify Larvasoft Tech Apps without undue delay if a
           third party asserts claims against the Customer based on infringement
           of intellectual property rights by the Product and/or Managed
           Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should there be any such notification, whether in written documents or
           correspondence or in other form, the Customer shall provide these to
           Larvasoft Tech Apps without undue delay.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps liability for Customer losses due to such
           infringement is limited to the cost of the In no event shall any
           Customer ever be entitled to access, or demand access to the source
           code for the Software and/or Managed Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall notify Larvasoft Tech Apps without undue delay if a
           third-party asserts claims against the Customer based on infringement
           of intellectual property rights by the Product and/or Managed
           Services.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should there be any such notification, whether in written documents or
           correspondence or in other form, the Customer shall provide these to
           Larvasoft Tech Apps without undue delay. Larvasoft Tech Apps liability
           for Customer losses due to such infringement is limited to the cost of
           the software or services provided by Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Customer is an Entrepreneur and the product of Larvasoft Tech
           Apps is the subject of a perpetual license, the Customer's warranty
           claims for defects of the product lapse after one year from the
           commencement of the License Term.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">Limitation of Liability for damages</b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+        <div className="tc_content">
+          <b >Limitation of Liability for damages</b>
+          <br className="tc_content" />
+          <br className="tc_content" />
           Larvasoft Tech Apps shall only be liable for any of the Customer's
           damages resulting from grossly negligent or intentional behavior of
           Larvasoft Tech Apps, and shall be limited to any amounts paid to
           Larvasoft Tech Apps by Customer during the twelve months immediately
           preceding the Customer's claim.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           If the Products or Services are provided by Larvasoft Tech Apps for a
           limited period of time, Larvasoft Tech Apps liabilities for defects
           expire at the time of the termination of the agreement.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The foregoing limitations of liability also apply to all Larvasoft
           Tech Apps representatives, including but not limited to its directors,
           legal representatives, employees and other vicarious agents.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Retention of title, transfer by way of security Larvasoft Tech Apps
           shall retain title in such Product(s) and goods as parts of Services
           until full payment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Customer fail to pay, then Larvasoft Tech Apps may demand
           return of the Product(s). The Terms providing that the Customer
           acquires no title, including but not limited to the title stipulated
           in clause 4 above, shall remain unaffected by this clause.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Customer sell the Products and Services provided by
           Larvasoft Tech Apps before the Customer has itself paid the Fee to
           Larvasoft Tech Apps, the Customer and Larvasoft Tech Apps agree that
           the receivables from the resale shall be assigned to Larvasoft Tech
           Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be Should the Customer
           sell the Products and Services provided by Larvasoft Tech Apps before
           the Customer has itself paid the Fee to Larvasoft Tech Apps, the
           Customer and Larvasoft Tech Apps agree that the receivables from the
           resale shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
+        <div className="tc_content">
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Should the Customer sell
           the Products and Services provided by Larvasoft Tech Apps before the
           Customer has itself paid the Fee to Larvasoft Tech Apps, the Customer
           and Larvasoft Tech Apps agree that the receivables from the resale
           shall be assigned to Larvasoft Tech Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Larvasoft Tech Apps shall
           retain title in such Product(s) and goods as parts of Services until
           full payment. Should the Customer fail to pay, then Larvasoft Tech
           Apps may demand return of the Product(s).
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Terms providing that the Customer acquires no title, including but
           not limited to the title stipulated in clause 4 above, shall remain
           unaffected by this clause.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Customer sell the Products and Services provided by
           Larvasoft Tech Apps before the Customer has itself paid the Fee to
           Larvasoft Tech Apps, the Customer and Larvasoft Tech Apps agree that
           the receivables from the resale shall be assigned to Larvasoft Tech
           Apps.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should the Products and Services be provided together with other
           items, the assignment of the receivables shall be limited to the value
           of Larvasoft Tech Apps Products and Services? Larvasoft Tech Apps may
           disclose the assignment or demand that the Customer notifies the
           debtor of such assignment.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer shall formally assign the receivables if still necessary
           at any time at Larvasoft Tech Apps request. Demand for return of
           Product by Larvasoft Tech Apps shall not constitute grounds for
           rescission or termination of the agreement unless Larvasoft Tech Apps
           expressly advises the Customer thereof.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           The Customer's license to use the Products and Services shall lapse
           upon demand for the return of the Product by Larvasoft Tech Apps. Any
           and all backup copies made by the Customer for its own use must be
           returned to Larvasoft Tech Apps or deleted by the Customer.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
-        <div className="_ngcontent">
-          <b className="_ngcontent">Miscellaneous</b>
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+        <div className="tc_content">
+          <b >Miscellaneous</b>
+          <br className="tc_content" />
+          <br className="tc_content" />
           Should any provision of these Terms be or become invalid, ineffective
           or unenforceable, the remaining provisions of these Terms shall be
           valid and enforceable.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
           Any necessary official permits for transports; purchase and use of the
           Products and Services in the destination country are the Customer's
           responsibility and shall be paid for by Customer.
-          <br className="_ngcontent" />
-          <br className="_ngcontent" />
+          <br className="tc_content" />
+          <br className="tc_content" />
         </div>
       </div>
 

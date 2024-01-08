@@ -1,0 +1,138 @@
+.toogle_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .toggleContainer {
+     position: relative;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     width: 255px;
+     height: 40px;
+     border: 6px solid #000000;
+     border-radius: 30px;
+     background: #000000;
+     font-weight: bold;
+     color: #000000;
+     cursor: pointer;
+   }
+   .toggleContainer::before {
+     content: '';
+     position: absolute;
+     width: 45%;
+     height: 100%;
+     left: 5%;
+     border-radius:20px;
+     background: white;
+     transition: all 0.3s;
+    
+   }
+   .toggleCheckbox:checked + .toggleContainer::before {
+      left: 50%;
+   }
+   .toggleContainer div {
+     padding: 4px;
+     text-align: center;
+     z-index: 1;
+   }
+   .toggleCheckbox {
+     display: none;
+   }
+   .toggleCheckbox:checked + .toggleContainer div:first-child{
+     color: white;
+     transition: color 0.3s;
+   }
+   .toggleCheckbox:checked + .toggleContainer div:last-child{
+     color: #000000;
+     transition: color 0.3s;
+   }
+   .toggleCheckbox + .toggleContainer div:first-child{
+     color: #000000;
+     transition: color 0.3s;
+   }
+   .toggleCheckbox + .toggleContainer div:last-child{
+     color: white;
+     transition: color 0.3s;
+   }
+   .log_r_div {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 100px;
+   }
+   .r_div_img img{
+    height: 80vh;
+    width: 30vw;
+    border-radius: 35px 0px 0px 35px;
+   margin-right: 100px;
+   }
+   .google{
+    height: 3vh;
+    margin-right: 8px;
+   }
+   .login_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+  .login_detail label{
+   margin: 30px 15px 15px -290px;
+  }
+  .login_detail input{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 5vh;
+    width: 28vw;
+  }
+  .login_detail button{
+    height: 4.7vh;
+    width: 17vw;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid black;
+    margin: 50px;
+  
+  }
+  .login_detail a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  }
+  .login_detail a b{
+    font-weight: 800;
+  }
+  .login_detail a:nth-child(6){
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: 600px) {
+    .r_div_img{
+        display:none;
+    }
+    .login_detail input {
+        height: 5vh;
+        width: 68vw;
+    }
+    .login_detail label{
+        margin: 5% 2% 5% -60%;
+        font-size: 1.3rem;
+       }
+       .log_r_div {
+        margin-right: 0px;
+    }
+    .login_detail a:nth-child(6) {
+        margin: 30px 0px;
+    }
+    .log_div2,.log_div2 h2{
+        margin-top: 10%;
+    }
+    .log_div2 h2,.toogle_body{
+        margin-bottom: 12%;
+    } 
+  }

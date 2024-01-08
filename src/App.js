@@ -16,7 +16,7 @@ import Error from './Pages/Error';
        <Route index element={<Home2/>}/>
        <Route path="/home" element={<Home2/>}/>
        <Route path="/contact" element={<Contact/>}/>
-       <Route path="/privacy_policy" element={<Privacy_policy/>}/>
+       <Route path="/policy" element={<Privacy_policy/>}/>
        <Route path="/term_condition" element={<Term_condition/>}/>
        <Route path="/login" element={<Login/>}/>
        <Route path="*" element={<Error/>}/>

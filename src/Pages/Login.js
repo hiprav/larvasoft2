@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../component/Navbar";
+import "../Css/Login.css";
 
 
 export default function About() {
@@ -14,9 +15,9 @@ export default function About() {
         <div className="r_div_img">
           <img src={"./images/design.jpg"} alt="" />
         </div>
-        <div>
-          <h2>Welcome Back</h2>
-          <span className="body">
+        <div className="log_div2">
+          <h2><b>Welcome Back</b></h2>
+          <span className="toogle_body ">
             <input type="checkbox" id="toggle" className="toggleCheckbox" />
             <label htmlFor="toggle" className="toggleContainer">
               <div onClick={retail()}>Retailer</div>
@@ -25,16 +26,12 @@ export default function About() {
           </span>
           <div className="login_detail">
 
-            <label htmlFor="uname"><b>Username</b></label>
+            <label htmlFor="uname" className="login_lable"><b>Username</b></label>
             <input type="text" name="uname" required/>
-
-            <label htmlFor="psw"><b>Password</b></label>
+            <label htmlFor="psw" className="login_lable"><b>Password</b></label>
             <input type="password" name="psw" required/>
-
-            <button type="submit" >Login</button>
-
+            <button type="submit">Login</button>
             <a href="/"><img src={"./images/google.png"} className="google" alt="" /> Log in with Google</a>
-
             <a href="/" >Don't have an account? <b>SignUp</b></a>
 
           </div>

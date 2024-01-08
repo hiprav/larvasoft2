@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  .n1-ul {
+    display: flex;
+    n1-ul-style: none;
+  }
+  
+  #toggler,
+  .label {
+    display: none;
+  }
+  .label i {
+    color: white;
+  }
+  @media screen and (max-width: 600px) {
+    .menu {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+    }
+    .label {
+      display: inline-flex;
+    }
+    #toggler:checked ~ .menu {
+      max-height: 100%;
+    }
+    .n1-ul {
+      flex-direction: column;
+      align-items: center;
+      background-color: lightgray;
+      margin: 0;
+    } 
+    .n1 img {
+      margin-right: 34%;
+    }
+    .btn basic-3 {
+      background-color: lightgray;
+    }
+    .fa-bars:before,
+    .fa-navicon:before {
+      content: "\f0c9";
+      color: black;
+    }
+    .btn_nav {
+      font-size: 3vw;
+    }
+    .btn
+    li {
+      background-color: lightgray;
+    }
+   
+  }

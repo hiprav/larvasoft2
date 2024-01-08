@@ -1,0 +1,83 @@
+.contact_div ,.address{
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    .contact_div {
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+    }
+    .contact_detail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact_block_1{
+      width: 500px;
+    }
+    .contact_block_2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5%;
+    }
+    .contact_block_1 img{
+      width: 27vw;
+    }
+    .contact_block_2 h2 img{
+    width: 5vw;
+    margin: 0px 7px 0px 0px;
+    }
+    .contact_detail input{
+      width: 30vw;
+      height: 4.5vh;
+
+    }
+    .contact_detail label{
+    margin: 15px 350px 8px 15px ;
+    align-self: start;
+    }
+    .contact_detail button{
+      background-color: #000000;
+      color: white;
+      border: 1px solid black;
+      border-radius: 4px;
+      width: 20vw;
+      height: 5vh;
+      text-align: center;
+      margin: 35px;
+    }
+    .address p{
+      width: 241px;
+      margin-left: -24%;
+    }
+    @media screen and (max-width: 600px) {
+    .contact_div{
+      flex-direction: column;
+      }
+      .contact_detail input {
+        width: 70vw;
+        height: 4.5vh;
+    }
+    .contact_detail label {
+      margin: 4% 0% 2% 1%;
+      align-self: start;
+    }
+    .contact_block_2 h2 img {
+      width: 3rem;
+      margin: -3px 4px 0px 0px;
+    }
+    .address{
+      display: none;
+    }
+    .larva_img{
+      display: flex;
+      margin: auto;
+    }
+    .input{
+      border-radius: 5px;
+      border-color: #000000;
+    }
+    }
